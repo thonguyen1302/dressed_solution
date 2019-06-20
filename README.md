@@ -1,7 +1,7 @@
 # GUIDELINES
 
 Requirement
-- Ruby version from 2.0.0 to 2.3.3
+- Ruby version from 2.0.0 to 2.3.3 (Install documentation - https://www.ruby-lang.org/en/documentation/installation/)
 
 RUN IT
 
