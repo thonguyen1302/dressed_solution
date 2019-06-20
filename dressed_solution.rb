@@ -22,7 +22,8 @@ class DressedSolution
         return result
       end
 
-      if (cloth == clothes.key("shoes") && !result.include?("socks")) ||
+      if (!clothes.key?(cloth)) ||
+         (cloth == clothes.key("shoes") && !result.include?("socks")) ||
          (cloth == clothes.key("shoes") && !result.include?("pants")) ||
          (cloth == clothes.key("hat")   && !result.include?("shirt"))
         result << "fail"
